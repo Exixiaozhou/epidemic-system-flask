@@ -1,0 +1,13 @@
+mysql:
+    username: 'xiaozhou'
+    password: 'zs1721248377'
+    host: '101.35.168.202'
+    port: 3306
+    db_name: 'spider_result_save'
+
+mongo:
+    username: 'xiaozhou'
+    password: 'zs1721248377'
+    host: '101.35.168.202'
+    port: 27017
+    db_name: 'spider_result_save'

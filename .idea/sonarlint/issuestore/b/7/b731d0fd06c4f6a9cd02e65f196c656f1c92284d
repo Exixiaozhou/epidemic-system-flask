@@ -1,0 +1,9 @@
+
+ypython:S101"cRename class "GET_TIMES" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(ßŸüF
+python:S101"jRename class "GET_LABEL_NUMBER" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(§¾É¨
+ƒpython:S101"gRename class "GET_LINE_DATA" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(û³–Ãùÿÿÿÿ
+|python:S101%"fRename class "GET_BAR_DATA" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(“ÑËs
+‚python:S101/"fRename class "GET_PIE_DATA" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(ÿÊ·Ğøÿÿÿÿ
+python:S1019"kRename class "GET_PROVINCE_DATA" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(“Ê¦F
+‚python:S101C"fRename class "GET_MAP_DATA" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(µò•°üÿÿÿÿ
+‰python:S101M"mRename class "GET_EPIDEMIC_SYSTEM" to match the regular expression ^_?([A-Z_][a-zA-Z0-9]*|[a-z_][a-z0-9_]*)$.(È…Äóÿÿÿÿÿ

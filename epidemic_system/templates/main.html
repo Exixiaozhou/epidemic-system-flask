@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" name="viewport”content=”width=device-width,initial-scale=1"/>
+	<title>疫情监控</title>
+	<script src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="http://101.35.168.202:8888/static/web_html/resource/china.js"></script>
+	<!--	<link href="http://101.35.168.202:8888/static/web_html/css/main.css" rel="stylesheet"/>-->
+	<link rel="stylesheet" href="../../static/web_html/css/main.css">
+</head>
+<body>
+<div id="main">
+	<div id="div_top">
+		<div id="title">
+			<span id="title_text">全国疫情实时追踪</span>
+		</div>
+		<div id="times"></div>
+	</div>
+	<div id="div_bottom">
+		<div id="div_middle_left">
+			<div id="line"></div>
+			<div id="line2"></div>
+		</div>
+		<div id="div_middle_middle">
+			<div id="labels">
+				<div class="one">
+					<div class="number"><h1>0000</h1></div>
+					<div class="number_label"><h1>累计确诊</h1></div>
+				</div>
+				<div class="two">
+					<div class="number"><h1>0000</h1></div>
+					<div class="number_label"><h1>现有确诊</h1></div>
+				</div>
+				<div class="three">
+					<div class="number"><h1>0000</h1></div>
+					<div class="number_label"><h1>累计治愈</h1></div>
+				</div>
+				<div class="four">
+					<div class="number"><h1>0000</h1></div>
+					<div class="number_label"><h1>累计死亡</h1></div>
+				</div>
+			</div>
+			<div id="map"></div>
+		</div>
+		<div id="div_middle_right">
+			<div id="bar"></div>
+			<div id="pie"></div>
+		</div>
+	</div>
+</div>
+<script src="http://101.35.168.202:8888/static/web_html/funciton_js/controller.js"></script>
+<script src="http://101.35.168.202:8888/static/web_html/funciton_js/line_picture.js"></script>
+<script src="http://101.35.168.202:8888/static/web_html/funciton_js/bar_picture.js"></script>
+<script src="http://101.35.168.202:8888/static/web_html/funciton_js/pie_picture.js"></script>
+<script src="http://101.35.168.202:8888/static/web_html/funciton_js/bar_province_picture.js"></script>
+<script src="http://101.35.168.202:8888/static/web_html/funciton_js/map_picture.js"></script>
+<script>
+	window.onresize = function(){
+		bar_province_echarts.resize();
+		line_echarts.resize();
+		bar_echarts.resize();
+		pie_echarts.resize();
+		map_echarts.resize();
+	}
+</script>
+</body>
+</html>
